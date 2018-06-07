@@ -1,0 +1,1 @@
+printjson((db.people.find({height: { $gt: "190" }})).toArray())

@@ -1,0 +1,1 @@
+printjson((db.people.find({email: "s10724@pjwstk.edu.pl"}).toArray()))

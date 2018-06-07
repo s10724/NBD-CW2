@@ -1,0 +1,42 @@
+MongoDB shell version v3.6.5
+connecting to: mongodb://127.0.0.1:27017/nbd
+MongoDB server version: 3.6.5
+[
+	{
+		"_id" : "Female",
+		"averageHeight" : 166.81260913705583,
+		"averageWeight" : 70.11331573604062
+	},
+	{
+		"_id" : "Male",
+		"averageHeight" : 166.73739753684634,
+		"averageWeight" : 70.01586311326469
+	}
+]
+{
+	"result" : "avg_height_weight",
+	"timeMillis" : 142,
+	"counts" : {
+		"input" : 9878,
+		"emit" : 9878,
+		"reduce" : 198,
+		"output" : 2
+	},
+	"ok" : 1
+}
+[
+	{
+		"_id" : "Female",
+		"value" : {
+			"averageHeight" : 166.812609137056,
+			"averageWeight" : 70.11331573604069
+		}
+	},
+	{
+		"_id" : "Male",
+		"value" : {
+			"averageHeight" : 166.73739753684654,
+			"averageWeight" : 70.01586311326474
+		}
+	}
+]

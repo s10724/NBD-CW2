@@ -1,0 +1,1 @@
+printjson(db.people.find({}, {_id:0, "credit.balance": 1}).toArray())

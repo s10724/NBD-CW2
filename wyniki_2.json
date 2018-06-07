@@ -1,0 +1,43 @@
+MongoDB shell version v3.6.5
+connecting to: mongodb://127.0.0.1:27017/nbd
+MongoDB server version: 3.6.5
+{
+	"_id" : ObjectId("5b14df51296005744e49bf74"),
+	"sex" : "Male",
+	"first_name" : "Ernest",
+	"last_name" : "Ortiz",
+	"job" : "Social Worker",
+	"email" : "eortizf@state.tx.us",
+	"location" : {
+		"city" : "Zhongcheng",
+		"address" : {
+			"streetname" : "Dahle",
+			"streetnumber" : "4319"
+		}
+	},
+	"description" : "consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent",
+	"height" : "179.17",
+	"weight" : "67.09",
+	"birth_date" : "2008-07-23T02:45:20Z",
+	"nationality" : "China",
+	"credit" : [
+		{
+			"type" : "maestro",
+			"number" : "201508948540843",
+			"currency" : "THB",
+			"balance" : "5512.85"
+		},
+		{
+			"type" : "jcb",
+			"number" : "4844504000289788",
+			"currency" : "SEK",
+			"balance" : "4188.39"
+		},
+		{
+			"type" : "mastercard",
+			"number" : "3560760172372810",
+			"currency" : "EUR",
+			"balance" : "4869.67"
+		}
+	]
+}

@@ -1,0 +1,1 @@
+printjson((db.people.find({job: "Editor"})).toArray())
